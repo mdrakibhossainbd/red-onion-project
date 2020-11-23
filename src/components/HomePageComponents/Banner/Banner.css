@@ -1,0 +1,36 @@
+.banner-bg{
+    background-image: url( ../../../images/bannerbackground.png );
+    background-size: cover;
+    height: 415px;
+    position: relative;
+    width: 100%;
+}
+.search-bar{
+    position: absolute;
+    right:50%;
+    top:50%;
+    margin-right: -120px;
+    margin-top: -35px;
+}
+
+.search-input{
+    text-align:  center ;
+    border:  none ;
+    padding:  7px ;
+    width:  100% ;
+    border-radius:  20px 
+}
+.search-input:focus{
+    outline:0;
+  }
+.search-btn{
+    border:  none ;
+    padding:  7px ;
+    width:  40% ;
+    color: white;
+    border-radius:  20px ;
+    margin-left:  -22px ;
+}
+.search-btn:focus{
+    outline:0;
+  }

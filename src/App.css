@@ -1,0 +1,85 @@
+
+.link-style{
+    text-decoration: none;
+    color: inherit;
+}
+.link-style:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.bg-transparent-btn{
+    border: none;
+    font-weight: 400;
+    font-size: larger;
+    background: none;
+}
+.bg-transparent-btn:focus{
+    outline: none;
+}
+.add-to-cart{
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, rgb(226, 11, 11), rgb(250, 39, 32));
+    padding: 7px 20px;
+    color: white;
+    font-weight: 400;
+}
+.add-to-cart:focus{
+    outline: none;
+    background-image: linear-gradient(45deg, rgb(23, 136, 42), rgb(47, 165, 0));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-class{
+    height: auto !important;
+    max-width: 850px !important;
+}
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+    .modal-class{
+        height: auto !important;
+        max-width: 500px !important;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+    .modal-class{
+        height: auto !important;
+        max-width: 700px !important;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
+    .modal-class{
+        height: auto !important;
+        max-width: 700px !important;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .card-columns {
+        column-count: 3;
+    }
+    .modal-class{
+        height: auto !important;
+        max-width: 700px !important;
+    }
+  }

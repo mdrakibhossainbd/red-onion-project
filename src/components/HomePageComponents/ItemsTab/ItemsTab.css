@@ -1,0 +1,21 @@
+.tab-btn{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-weight: 500;
+}
+.tab-btn:focus{
+    color: rgba(255, 103, 103, 0.85);
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 103, 103, 0.85);
+    outline:none;
+}
+.food-card{
+    border: none;
+}
+.food-card:hover{
+    box-shadow: 5px 5px 10px 5px gainsboro;
+}
